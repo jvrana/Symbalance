@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/Android/AndroidManifest.xml">
+    <Files>
+      <File FileName="Assets/Plugins/Android/AndroidManifest.xml" Line="20" Column="8" />
+      <File FileName="Assets/Plugins/BleWrapper.cs" Line="10" Column="8" />
+      <File FileName="Assets/Scripts/UpdateText.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Justin/Downloads/UnityAndroidExtras-master/UnityProject/Assets/Plugins/Android/AndroidManifest.xml" line="6" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
