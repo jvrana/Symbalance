@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/Android/AndroidManifest.xml">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UpdateText.cs">
     <Files>
       <File FileName="Assets/Plugins/Android/AndroidManifest.xml" Line="20" Column="8" />
-      <File FileName="Assets/Plugins/BleWrapper.cs" Line="10" Column="8" />
-      <File FileName="Assets/Scripts/UpdateText.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/BleWrapper.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/UpdateText.cs" Line="22" Column="43" />
+      <File FileName="../../../../../Google Drive/UWSeattle-BioE/Classes/CSNE_TechSandbox/VertiGoneBluetoothExample/UnityProject/Assets/Plugins/BleWrapper.cs" Line="1" Column="1" />
+      <File FileName="../../../../../Google Drive/UWSeattle-BioE/Classes/CSNE_TechSandbox/VertiGoneBluetoothExample/UnityProject/Assets/Scripts/UpdateText.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

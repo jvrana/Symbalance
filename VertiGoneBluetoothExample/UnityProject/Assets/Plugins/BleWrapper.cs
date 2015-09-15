@@ -26,22 +26,16 @@ public class BleWrapper : MonoBehaviour {
 		return vStatus;
 	}
 
-	public static Vector3 getGyroData() 
+	public static Vector3 getQuatData() 
 	{
-		float gyrox = sensorValuesJC.GetStatic<float> ("gyro_x");
-		float gyroy = sensorValuesJC.GetStatic<float> ("gyro_y");
-		float gyroz = sensorValuesJC.GetStatic<float> ("gyro_z");
-		Vector3 gyro = new Vector3 (gyrox, gyroy, gyroz);
-		return gyro;
+		float quatw = sensorValuesJC.GetStatic<float> ("quat_w");
+		float quatx = sensorValuesJC.GetStatic<float> ("quat_x");
+		float quaty = sensorValuesJC.GetStatic<float> ("quat_y");
+		float quatz = sensorValuesJC.GetStatic<float> ("quat_z");
+		Quaternion quat = new Quaternion (quatx, quaty, quatz, quatw);
+		return quat
 	}
 
-	public static Vector3 getAccelData() 
-	{
-		float accelx = sensorValuesJC.GetStatic<float> ("acceleration_x");
-		float accely = sensorValuesJC.GetStatic<float> ("acceleration_y");
-		float accelz = sensorValuesJC.GetStatic<float> ("acceleration_z");
-		Vector3 accel = new Vector3 (accelx, accely, accelz);
-		return accel;
-	}
+
 	#endif
 }

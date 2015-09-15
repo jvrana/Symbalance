@@ -7,15 +7,10 @@ using UnityEngine.UI;
  */
 public class UpdateText : MonoBehaviour {
 	public Text statusText;
-	public Text gyrox;
-	public Text gyroy;
-	public Text gyroz;
-	public Text accelx;
-	public Text accely;
-	public Text accelz;
-	public Vector3 gyro = new Vector3(0f,0f,0f);
-	public Vector3 acceleration = new Vector3(0f,0f,0f);
-	// Use this for initialization
+	public Text quatx;
+	public Text quaty;
+	public Text quatz;
+	public Text quatw;
 	void Start () {
 	
 	}
@@ -24,14 +19,10 @@ public class UpdateText : MonoBehaviour {
 	void Update () {
 		statusText.text = "Bluetooth Status: " + BleWrapper.getBleStatus ();
 
-		gyro = BleWrapper.getGyroData ();
-		gyrox.text = "Gyroscope X: " + gyro.x.ToString ();
-		gyroy.text = "Gyroscope Y: " + gyro.y.ToString ();
-		gyroz.text = "Gyroscope Z: " + gyro.z.ToString ();
-
-		acceleration = BleWrapper.getAccelData ();
-		accelx.text = "Acceleration X: " + acceleration.x.ToString ();
-		accely.text = "Acceleration Y: " + acceleration.y.ToString ();
-		accelz.text = "Acceleration Z: " + acceleration.z.ToString ();
+		Quaternion quat = BleWrapper.getQuatData ();
+		quatx.text = "Quaternion X: " + quat.x.ToString ();
+		quaty.text = "Quaternion Y: " + quat.y.ToString ();
+		quatz.text = "Quaternion Z: " + quat.z.ToString ();
+		quatw.text = "Quaternion W: " + quat.w.ToString ();
 	}
 }
