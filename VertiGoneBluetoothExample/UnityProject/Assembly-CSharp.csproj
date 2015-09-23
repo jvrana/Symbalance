@@ -46,10 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Buttons.cs" />
+     <Compile Include="Assets\Scripts\BleWrapper.cs" />
+     <Compile Include="Assets\Scripts\RotateCamera.cs" />
      <Compile Include="Assets\Scripts\UpdateText.cs" />
+     <Compile Include="Assets\TBE_3Dception\Utilities\TBE_SRChange.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="TBE_3DCore">
+ <HintPath>/Users/Justin/Development/Projects/Symbalance/VertiGoneBluetoothExample/UnityProject/Assets/TBE_3Dception/Core/TBE_3DCore.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iossupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

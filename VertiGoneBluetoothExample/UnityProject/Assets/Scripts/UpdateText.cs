@@ -7,22 +7,9 @@ using UnityEngine.UI;
  */
 public class UpdateText : MonoBehaviour {
 	public Text statusText;
-	public Text quatx;
-	public Text quaty;
-	public Text quatz;
-	public Text quatw;
-	void Start () {
-	
-	}
 	
 	// Update is called once per frame
 	void Update () {
 		statusText.text = "Bluetooth Status: " + BleWrapper.getBleStatus ();
-
-		Quaternion quat = BleWrapper.getQuatData ();
-		quatx.text = "Quaternion X: " + quat.x.ToString ();
-		quaty.text = "Quaternion Y: " + quat.y.ToString ();
-		quatz.text = "Quaternion Z: " + quat.z.ToString ();
-		quatw.text = "Quaternion W: " + quat.w.ToString ();
 	}
 }
