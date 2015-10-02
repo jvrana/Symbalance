@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/UpdateText.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RotateCamera.cs">
     <Files>
-      <File FileName="Assets/Scripts/RotateCamera.cs" Line="7" Column="17" />
+      <File FileName="Assets/Scripts/RotateCamera.cs" Line="12" Column="56" />
       <File FileName="Assets/Buttons.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/UpdateText.cs" Line="13" Column="3" />
+      <File FileName="Assets/Scripts/BleWrapper.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
